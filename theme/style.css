@@ -189,11 +189,6 @@ ADD CUSTOM STYLES IN YOUR DIV AREAS!
    min-height: 50%;
  }
 
- .alexDiv img, .alexDiv h1, .alexDiv a {
-   margin: 5px;
-   padding: 5px;
- }
-
  .allieDiv {
    background-color: blue;
    border: 1px solid black;
