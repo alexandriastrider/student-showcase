@@ -196,17 +196,25 @@ ADD CUSTOM STYLES IN YOUR DIV AREAS!
 
  .allieDiv {
    background-color: blue;
+   border: 1px solid black;
+   border-radius: 5px;
    margin: 5px;
    padding:5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 
 }
 .allieDiv img {
   border-radius: 25px;
-  height: 140px;
-  width: 140px;
+  height: 50%;
+  width: 75% ;
 
-
-
+}
+.allieDiv img, .allieDiv h1, .allieDiv a {
+  margin: 5px;
+  padding: 5px;
 }
 
  .keriDiv {
